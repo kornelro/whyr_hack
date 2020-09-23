@@ -7,6 +7,7 @@ csv.field_size_limit(sys.maxsize)
 # Content
 content = pd.read_csv('data/content.csv', engine = 'python')
 content = content[['url', 'text']]
+content = content.dropna()
 content.to_csv('data/content-clean.csv', index = False)
 
 # Articles
