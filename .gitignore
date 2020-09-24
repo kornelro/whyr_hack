@@ -141,3 +141,5 @@ cython_debug/
 
 .Rproj.user/
 .idea/
+*.Rhistory
+*.Rproj
